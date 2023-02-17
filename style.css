@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+:root {
+  --orange: hsl(31, 77%, 52%);
+  --cyan: hsl(184, 100%, 22%);
+  --dark-cyan: hsl(179, 100%, 13%);
+  /* for paragraphs */
+  --white: hsla(0, 0%, 100%, 0.75);
+  /* for background, headings, buttons */
+  --gray: hsl(0, 0%, 95%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: pink;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  background-color: red;
+  max-width: 600px;
+  height: 300px;
+  display: flex;
+}
+
+.card {
+  background-color: white;
+  border: 1px dashed black;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* Mobile view */
+/* @media (max-width: 375px) {
+} */ ;
