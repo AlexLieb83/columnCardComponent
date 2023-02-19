@@ -27,20 +27,29 @@ body {
   height: 100vh;
 }
 
+h2 {
+  font-family: "Big Shoulders Display";
+  font-size: 2rem;
+}
+
+p {
+  font-family: "Lexend Deca";
+}
+
 .container {
-  background-color: red;
-  max-width: 600px;
-  height: 300px;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
   background-color: white;
   border: 1px dashed black;
-  height: 300px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  padding: 20px;
 }
 
 /* Mobile view */
