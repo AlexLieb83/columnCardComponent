@@ -37,6 +37,9 @@ p {
 }
 
 .container {
+  background-color: red;
+  max-width: 600px;
+  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
